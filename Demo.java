@@ -118,7 +118,6 @@ public class Demo {
                             break;
                         }
 
-
                         case 'R': {
                             switch (position.getDirection()) {
                                 case 'N':
@@ -175,7 +174,6 @@ public class Demo {
                 }
                 roverPositionsOut.add(position);
             }
-
         }
 
         return roverPositionsOut;
@@ -244,8 +242,6 @@ public class Demo {
         }
         return isValid;
     }
-
-
 }
 
 enum InputType {
